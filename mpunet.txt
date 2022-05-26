@@ -1,0 +1,21 @@
+
+#!/bin/bash
+#SBATCH --job-name=lasts
+#number of independent tasks we are going to start in this script
+#SBATCH --ntasks=4 --cpus-per-task=5 --mem=10000M
+#SBATCH -p gpu --gres=gpu:1
+#number of cpus we want to allocate for each program
+#SBATCH --cpus-per-task=4
+#We expect that our program should not run longer than
+#SBATCH --time=24:00:00
+
+fusermount -uz erda_files
+
+sh mount_erda.sh
+source env39/bin/activate
+cd erda_files/
+ls
+python mpunet_python.py
+cd ..
+sh unmount_erda.sh
+
