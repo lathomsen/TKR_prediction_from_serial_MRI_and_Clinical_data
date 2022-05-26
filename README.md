@@ -8,3 +8,9 @@ LR_Clinical
 
 LR_imagedata
 - Baseline models, correlation and t-statistics of MRI feature
+
+Improved_LSTM_Img.ipynb
+- LSTM, Shallow LSTM and modelling code for MRI features
+
+Improved_LSTM_Clinical
+- LSTM, Shallow LSTM for clinical features
