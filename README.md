@@ -37,3 +37,5 @@ makedataset.ipynb
 Clinical information.ipynb
 - Ro furter construct the clinical features as wanted. 
 
+Statistics.ipynb
+- make paired T-test and Delong test 
