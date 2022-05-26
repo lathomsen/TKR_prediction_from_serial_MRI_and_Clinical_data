@@ -30,3 +30,7 @@ Extract features.ipynb
 
 Thicknesses.ipynb
 - Extract thickness of compartments in two manners.
+
+Clinical information
+- to furter construct the clinical features as wanted. 
+
