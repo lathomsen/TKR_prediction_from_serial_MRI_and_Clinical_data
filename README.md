@@ -17,10 +17,10 @@ Improved_LSTM_Clinical.ipynb
 - LSTM, Shallow LSTM for clinical features
 
 Combined_LSTM.ipynb
-- code for combining the two data sets and training combined models
+- Code for combining the two data sets and training combined models
 
 Ensamble.ipynb
-- loading data, models from other notebooks and then combine to an ensamble method
+- Loading data, models from other notebooks and then combine to an ensamble method
 
 Dialation_and_Erotion.ipynb:
 - Perform dialation and erotion, then save the difference
@@ -31,6 +31,9 @@ Extract features.ipynb
 Thicknesses.ipynb
 - Extract thickness of compartments in two manners.
 
-Clinical information
-- to furter construct the clinical features as wanted. 
+makedataset.ipynb
+- Construct the data set, select which samples to use
+
+Clinical information.ipynb
+- Ro furter construct the clinical features as wanted. 
 
