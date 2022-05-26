@@ -22,3 +22,11 @@ Combined_LSTM.ipynb
 Ensamble.ipynb
 - loading data, models from other notebooks and then combine to an ensamble method
 
+Dialation_and_Erotion.ipynb:
+- Perform dialation and erotion, then save the difference
+
+Extract features.ipynb
+- Extract featrues from MRI: Total amount of each kind of cartilage, Split Tibial and Femural compartments, Approx JSW, Miniscus, Intensities and Entropi, Opening and closing, 
+
+Thicknesses.ipynb
+- Extract thickness of compartments in two manners.
